@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test:unit": "jest unit-test",
-    "test:integration": "jest integration-test"
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
