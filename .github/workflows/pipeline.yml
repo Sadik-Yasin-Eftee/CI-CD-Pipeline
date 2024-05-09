@@ -23,9 +23,9 @@ jobs:
 
       - name: Run tests
         run: |
-          if ["${{ matrix.test-type }}" == "unit"]; then
+          if ("${{ matrix.test-type }}" == "unit"); then
             npm run test:unit
-          elif ["${{ matrix.test-type }}" == "integration"]; then
+          elif ("${{ matrix.test-type }}" == "integration"); then
             npm run test:integration
           else
             npm run test
